@@ -2,7 +2,7 @@
 
 A **PocketMine-MP** plugin that automatically teleports players back to a safe location when they fall below a configurable Y‑level.
 
-## [Download Latest Stable Release]
+## [Download Latest Stable Release](https://poggit.pmmp.io/r/255647/VoidTP_dev-1.phar)
 
 ---
 
