@@ -1,0 +1,19 @@
+name: VoidTP
+main: LeoWasCoding\Main
+version: 1.1.0
+api: 5.0.0
+author: LeoWasCoding
+commands:
+  void:
+    description: Set the void Y‑threshold for a world
+    usage: "/void <world> <y‑level>"
+    permission: voidtp.admin
+  voidtp:
+    description: Set the void teleport location for a world
+    usage: "/voidtp <world> <x> <y> <z>"
+    permission: voidtp.admin
+permissions:
+  voidtp.admin:
+    default: op
+  voidtp.use:
+    default: false

@@ -1,0 +1,6 @@
+worlds:
+  # Example configuration:
+  # world:
+  #   void:
+  #     y: 60
+  #     tp: [0, 100, 0]
