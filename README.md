@@ -2,7 +2,7 @@
 
 A **PocketMine-MP** plugin that automatically teleports players back to a safe location when they fall below a configurable Y‑level.
 
-## [Download Latest Stable Release](https://poggit.pmmp.io/r/255647/VoidTP_dev-1.phar)
+## [Download Latest Stable Release](https://poggit.pmmp.io/r/255647/VoidTP_dev-5.phar)
 
 ---
 
@@ -43,6 +43,8 @@ worlds:
 
 ---
 
+---
+
 ## 🛠 Commands
 
 > Requires permission `voidtp.admin`.
@@ -52,6 +54,11 @@ worlds:
 | `/void <world> <y-level>`     | Set the void-Y threshold for a specific world                    | `/void myworld 5`            |
 | `/voidtp <world> <x,y,z>`     | Set the safe teleport coordinates as comma-separated values      | `/voidtp myworld 100,70,100` |
 | `/voidtp <world> <x> <y> <z>` | Alternate syntax: set teleport coordinates as separate arguments | `/voidtp myworld 100 70 100` |
+| `/voiddel <world>`            | Delete the void configuration for a world                        | `/voiddel myworld`           |
+| `/voidlist`                   | List all worlds with void settings                               | `/voidlist`                  |
+
+> Players require the `voidtp.use` permission to be safely teleported.
+> Players without it will be killed when falling below the configured Y-level.
 
 ---
 
